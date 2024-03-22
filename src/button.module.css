@@ -1,0 +1,18 @@
+.button {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid rbga(0, 0, 0, 0, 0.6);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 1em sans-serif;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
