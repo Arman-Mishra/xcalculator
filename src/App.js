@@ -9,7 +9,7 @@ export default function App() {
   const handleCalculation = () => {
     try {
       if (input === "") {
-        return;
+        throw new Error("Error");
       }
       setResult(eval(input));
     } catch (error) {
